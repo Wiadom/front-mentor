@@ -1,0 +1,304 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+box-sizing: border-box;
+}
+body{
+margin: 7% auto;
+max-width: 1440px;
+}
+main{
+margin: 0 8%;
+}
+.nav{
+width: 100%;
+background-color: transparent;
+margin-bottom: 40px;
+position: relative;
+}
+.nav li {
+    list-style-type: none;
+    float: right;
+    padding-bottom: 10px;
+    position: relative;
+    margin-left: 40px;
+    display: block;
+}    
+.nav a{
+    font-family: sans-serif;
+    color: hsl(236, 13%, 42%);
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav a:hover{
+color: hsl(5, 85%, 63%);
+}
+.icon-menu{
+    float: right;
+    display: none;
+}
+.close-menu{
+    right: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+.close-menu{
+    visibility: hidden;
+}
+.img1{
+    display:  block;
+    width: 100%;
+    }
+    .img4{
+    display: none;
+    }
+    
+    /*first paragraph */
+    .Bright-future{
+    font-family: 'inter', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-top: 0px;
+    justify-content: end;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+    }
+    .main2{
+    display: block;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    }
+    .sub-main1{
+    display: flex;
+    color: hsl(240, 100%, 5%);
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+    .sub-main3{
+        margin-bottom: 0;
+        /* border: 1px solid black; */
+        }
+        .para2{
+        color: hsl(236, 13%, 42%);
+        line-height: 30px;
+        font-family: sans-serif;
+        font-size: 17px;
+        }
+        .sub-main3 > button{
+        background-color: hsl(5, 85%, 63%);
+        color: hsl(36, 100%, 99%);
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 15px 35px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: hsl(35, 77%, 62%);
+        }
+        .sub-main3 > button:hover{
+        background-color: hsl(240, 100%, 5%);
+        }
+        /* dark section on the right side*/
+        .New{
+        background-color: hsl(240, 100%, 5%);
+        min-width: 30%;
+        }
+        .New1{
+        padding: 0px 20px;
+        
+        }
+        .New-real{
+        color: hsl(35, 77%, 62%);
+        font-family: 'inter', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        }
+        .para3{
+        font-family: 'inter', sans-serif;
+        color:hsl(36, 100%, 99%);
+        font-size: 20px;
+        cursor: pointer;
+        }
+        .para3:hover{
+        color: hsl(35, 77%, 62%);
+        }
+        .para4{
+        color:hsl(233, 8%, 79%);
+        font-family: sans-serif;
+        }
+        .New-para{
+        line-height: 27px;
+        }
+        .gray{
+        margin: 70px 0;
+        }
+        .Last{
+        display: flex;
+        margin-top: 100px;
+        }
+        .Last1{
+        float: left;
+        display: flex;
+        margin: 10px 0px;
+        }
+        .img2{
+        max-width: 100px;
+        height: auto;
+        padding-right: 30px;
+        }
+        .div2{
+        float: right;
+        padding-left: 0px;
+        padding-right: 10px;
+        }
+        .div3{
+        float: right;
+        padding-left: 0px;
+        }
+        .num{
+        font-family: 'inter', sans-serif;
+        color:hsl(233, 8%, 79%);
+        font-size: 30px;
+        }
+        .heading{
+        font-family: 'inter', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
+        }
+        .heading:hover{
+        color:hsl(5, 85%, 63%);
+        }
+        .para7{
+            color: hsl(236, 13%, 42%);
+            line-height: 20px;
+            font-family: sans-serif;
+            font-size: 15px;
+            }
+@media screen and (max-width:700px){
+    .icon-menu{
+        display: block;
+        position: relative;
+    }
+    .icon-menu:hover .close-menu{
+        display: block;
+    }
+    .nav1{
+        display: none;
+        background-color: hsl(37, 100%, 99%);
+        margin: 0;
+        right: 0;
+        float: right;
+        padding-bottom: 140%;
+        padding-top: 20%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .nav11{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        line-height: 40px;
+        right: 0;
+        top: 0;
+        display: block;
+        transition: 2s;
+    }
+    .nav11 li{
+        padding-right: 0;
+        padding-left: 0%;
+        float: right;
+    }
+    .close-menu{
+        display: block;
+    }
+    .Bright-future{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'inter', sans-serif;
+        }
+}
+.main1{
+display: flex;
+}
+@media screen and (max-width:1000px){
+.main1{
+display: block;
+/* border: 1px solid blue; */
+}
+.main2{
+/* border: 1px solid red; */
+margin-right: 0px;
+width: 100%;
+}
+.New{
+background-color: hsl(240, 100%, 5%);
+margin-bottom: 5vw;
+max-width: 340px;
+margin-top: 20px;
+}
+.sub-main3{
+margin-top: 5px;
+float: right;
+width: 100%;
+}
+.Bright-future{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    }
+}
+
+@media screen and (max-width:375px){
+    .img4{
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    .img1{
+    display: none;
+    }
+    .Bright-future{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    }
+    }
+@media screen and (max-width:830px){
+.sub-main1{
+display: flex;
+color: hsl(240, 100%, 5%);
+flex-direction: column;
+}
+.para2{
+color: hsl(236, 13%, 42%);
+line-height: 30px;
+font-family: sans-serif;
+font-size: 17px;
+}
+.Last{
+display: flex;
+flex-direction: column;
+}
+}
+@media screen and (max-width:197px){
+.Last1{
+display: flex;
+flex-direction: column;
+padding: 0;
+margin: 0;
+float: left;
+padding-left: 0px;
+}
+.div3{
+width: 100%;
+}
+}
